@@ -1,0 +1,31 @@
+:root {
+    --primary-background-color:#F3F2F2;
+    --height-between-banner:200px
+}
+
+
+.btn {
+    height: 8.6rem;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.btn.btn-sm {
+    height: 4rem;
+    width: 18.2rem;
+    font-size: 2rem;
+    line-height: 2.3rem;
+}
+
+.banner {
+    position: relative;
+    margin-top: var(--height-between-banner);
+    background-color: var(--primary-background-color);
+}
