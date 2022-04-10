@@ -15,6 +15,7 @@
     text-align: center;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .btn.btn-sm {
@@ -28,4 +29,9 @@
     position: relative;
     margin-top: var(--height-between-banner);
     background-color: var(--primary-background-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }

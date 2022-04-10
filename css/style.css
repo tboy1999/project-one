@@ -50,13 +50,11 @@ html {
 
 .menu li {
     padding:0 3.5rem;
+    cursor: pointer;
 }
 
-li.product {
-    display: flex;
-}
-
-li.pages {
+li.product > a,
+li.pages > a {
     display: flex;
 }
 
@@ -91,7 +89,8 @@ li.product>div {
 .search > div {
     position: absolute;
     left: 2.4rem;
-    top:.8rem
+    top:.8rem;
+    cursor: pointer;
 }
 
 .search input {
@@ -107,7 +106,7 @@ li.product>div {
 }
 
 /* shopping */
-.shopping {
+.shopping > a {
     display: flex;
     margin-left: 5.1rem;
     width: 11.1rem;
@@ -118,6 +117,7 @@ li.product>div {
 /* user */
 .user {
     margin-left: 4.2rem;
+    cursor: pointer;
 }
 
 
