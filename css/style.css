@@ -38,6 +38,7 @@ html {
     flex-wrap: wrap;
     font-size: 2rem;
     height: 13.0rem;
+    width:  144rem;
     align-items: center;
     position: fixed;
     z-index: 9999;
@@ -95,7 +96,7 @@ li.product>div {
 .search > div {
     position: absolute;
     left: 2.4rem;
-    top:.8rem;
+    top: 0.8rem;
     cursor: pointer;
 }
 
@@ -112,17 +113,24 @@ li.product>div {
 }
 
 /* shopping */
+.shopping {
+    flex: 1
+}
+
 .shopping > a {
     display: flex;
     margin-left: 5.1rem;
     width: 11.1rem;
-    height: 27.4.1rem;
-    justify-content: space-between;
+    height: 2.741rem;
+}
+
+.shopping > a > span {
+    margin-left: 1rem;
 }
 
 /* user */
 .user {
-    margin-left: 4.2rem;
+    /* margin-left: 4.2rem; */
     cursor: pointer;
 }
 
