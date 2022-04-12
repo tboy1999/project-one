@@ -133,6 +133,30 @@ li.product>div {
     cursor: pointer;
 }
 
+/* ------------ form log-in log-out ------------ */
+
+.header-form {
+    flex: 1;
+    text-align: end;
+}
+
+.header-form__login {  
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    background-image: linear-gradient(to bottom, #14c2f4, #63ba47);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header-form__registration {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    background-image: linear-gradient(to bottom,#fff100 , #f6931e);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 /* ---------------- banner1 ------------------ */
 
