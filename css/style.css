@@ -299,6 +299,13 @@ li.product>div {
     margin-bottom: 3rem;
 }
 
+.button-banner3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
 /* --------------- banner4 ------------ */
 .banner4 {
     text-align: center;
